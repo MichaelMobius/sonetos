@@ -18,7 +18,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 800);
   if (images.every(img => img !== null)) {
     generateSonnet();
   } else {
